@@ -64,6 +64,7 @@ class TestCollectionViewController: UICollectionViewController {
         // Configure the cell
         cell.roundTestButton.layer.cornerRadius = 10.0
         cell.roundTestButton.layer.masksToBounds = true
+        cell.roundTestButton.layoutIfNeeded()
         
         println(cell.roundTestButton)
     

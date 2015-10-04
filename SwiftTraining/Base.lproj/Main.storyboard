@@ -19,9 +19,12 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xSq-Ac-3vH">
                                 <rect key="frame" x="165" y="221" width="115" height="93"/>
                                 <color key="backgroundColor" red="0.79607843140000001" green="0.1647058824" blue="0.23137254900000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Click to go to collection View">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <variation key="heightClass=compact-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="101" y="153" width="199" height="93"/>
+                                </variation>
                                 <connections>
                                     <segue destination="VIM-oS-M80" kind="show" id="X9Z-at-PLB"/>
                                 </connections>
